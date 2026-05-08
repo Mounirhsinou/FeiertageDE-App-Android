@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- splash_branding – tagline branding shown at bottom of splash screen -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="40dp"
+    android:viewportWidth="200"
+    android:viewportHeight="40">
+    <!-- Simple "Feiertage DE" text represented as a placeholder shape -->
+    <path
+        android:fillColor="#CCFFFFFF"
+        android:pathData="M10,15 L190,15 L190,25 L10,25 Z"
+        android:fillAlpha="0.3"/>
+</vector>

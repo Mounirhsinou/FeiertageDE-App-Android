@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Feiertage DE</string>
+    <string name="app_name_full">Deutsche Feiertage</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_calendar">Kalender</string>
+    <string name="nav_states">Länder</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- Home -->
+    <string name="next_holiday_label">Nächster Feiertag</string>
+    <string name="countdown_label">COUNTDOWN</string>
+    <string name="upcoming_holidays">Bevorstehende Feiertage</string>
+    <string name="view_all">Alle anzeigen</string>
+    <string name="search_hint">Feiertage suchen…</string>
+    <string name="bridge_days_label">BRÜCKENTAGE</string>
+    <string name="regional_label">REGIONAL</string>
+    <string name="empty_holidays">Keine Feiertage gefunden</string>
+    <string name="no_results">Keine Ergebnisse für deine Suche</string>
+
+    <!-- Badges -->
+    <string name="badge_national">National</string>
+    <string name="badge_state">Landesfeiertag</string>
+    <string name="badge_regional">Regional</string>
+
+    <!-- Calendar -->
+    <string name="calendar_title">Kalender</string>
+    <string name="prev_month">Vorheriger Monat</string>
+    <string name="next_month">Nächster Monat</string>
+
+    <!-- States -->
+    <string name="states_title">Bundesländer</string>
+    <string name="all_states">Alle Bundesländer</string>
+    <string name="select_state">Bundesland wählen</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="dark_mode">Dunkelmodus</string>
+    <string name="dark_mode_desc">App im Dunkelmodus anzeigen</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="notifications_desc">Erinnerungen vor Feiertagen erhalten</string>
+    <string name="notif_days_before">Erinnerung im Voraus</string>
+    <string name="about">Über die App</string>
+    <string name="app_version">Version</string>
+    <string name="data_source">Datenquelle: Bundesministerium des Innern</string>
+    <string name="developer">Entwickelt mit ❤️ für Deutschland</string>
+
+    <!-- Favorites -->
+    <string name="add_favorite">Zu Favoriten hinzufügen</string>
+    <string name="remove_favorite">Aus Favoriten entfernen</string>
+    <string name="favorites_title">Favoriten</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Feiertag Erinnerungen</string>
+    <string name="notif_channel_desc">Erinnerungen vor deutschen Feiertagen</string>
+    <string name="notif_title">🇩🇪 Feiertag Erinnerung</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Feiertag Details</string>
+    <string name="detail_states">Gilt in diesen Bundesländern:</string>
+    <string name="detail_description">Beschreibung</string>
+    <string name="save_favorite">Speichern</string>
+    <string name="saved_as_favorite">Favorit</string>
+
+    <!-- Long Weekend -->
+    <string name="optimal">Optimal</string>
+    <string name="good">Gut</string>
+    <string name="fair">Okay</string>
+    <string name="leave_days_required">Urlaubstage nötig</string>
+    <string name="total_days_off">Freie Tage</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Alle deutschen Feiertage. Offline.</string>
+</resources>

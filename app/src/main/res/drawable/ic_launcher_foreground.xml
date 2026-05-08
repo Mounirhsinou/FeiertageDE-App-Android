@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_launcher_foreground – white flag icon used for splash screen & notification -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer circle background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+
+    <!-- German flag simplified bars -->
+    <!-- Black bar -->
+    <path
+        android:fillColor="#1A1C1C"
+        android:pathData="M30,34 L78,34 L78,44 L30,44 Z"/>
+    <!-- Red bar -->
+    <path
+        android:fillColor="#A8000A"
+        android:pathData="M30,44 L78,44 L78,54 L30,54 Z"/>
+    <!-- Gold bar -->
+    <path
+        android:fillColor="#FFCE00"
+        android:pathData="M30,54 L78,54 L78,64 L30,64 Z"/>
+
+</vector>

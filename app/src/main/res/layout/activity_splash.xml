@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_splash.xml – Full-screen branded splash screen shown while
+    the SplashScreen API animates. Contains the logo + animated tagline.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+    <!-- German flag stripe – top black band -->
+    <View
+        android:id="@+id/stripe_black"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#1A1C1C"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/stripe_red"
+        app:layout_constraintHeight_percent="0.1" />
+
+    <!-- Center content group -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/center_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Flag emoji / logo -->
+        <TextView
+            android:id="@+id/tv_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🇩🇪"
+            android:textSize="64sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tv_app_name" />
+
+        <!-- App name -->
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/on_primary"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.02"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_flag"
+            app:layout_constraintBottom_toTopOf="@id/tv_tagline" />
+
+        <!-- Tagline -->
+        <TextView
+            android:id="@+id/tv_tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_tagline"
+            android:textColor="#CCFFFFFF"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.05"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_app_name"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- German flag stripe – bottom gold band -->
+    <View
+        android:id="@+id/stripe_gold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/gold_accent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.1" />
+
+    <!-- Red stripe is the background color of the whole layout -->
+    <View
+        android:id="@+id/stripe_red"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/stripe_black"
+        app:layout_constraintBottom_toTopOf="@id/stripe_gold" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

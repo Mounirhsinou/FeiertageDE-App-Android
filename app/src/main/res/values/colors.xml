@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ── Primary (Signal Red) ──────────────────────────────────────────── -->
+    <color name="primary">#A8000A</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#D11919</color>
+    <color name="on_primary_container">#FFE5E2</color>
+    <color name="inverse_primary">#FFB4AA</color>
+
+    <!-- ── Secondary (Neutral Gray) ─────────────────────────────────────── -->
+    <color name="secondary">#5F5E5E</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#E5E2E1</color>
+    <color name="on_secondary_container">#656464</color>
+
+    <!-- ── Tertiary (Gold/Accent) ────────────────────────────────────────── -->
+    <color name="tertiary">#735C00</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#CFA700</color>
+    <color name="on_tertiary_container">#4E3E00</color>
+
+    <!-- ── Error ──────────────────────────────────────────────────────────── -->
+    <color name="error">#BA1A1A</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="error_container">#FFDAD6</color>
+    <color name="on_error_container">#93000A</color>
+
+    <!-- ── Surface / Background ──────────────────────────────────────────── -->
+    <color name="background">#F9F9F9</color>
+    <color name="on_background">#1A1C1C</color>
+    <color name="surface">#F9F9F9</color>
+    <color name="on_surface">#1A1C1C</color>
+    <color name="surface_variant">#E2E2E2</color>
+    <color name="on_surface_variant">#5D3F3C</color>
+    <color name="surface_container_lowest">#FFFFFF</color>
+    <color name="surface_container_low">#F3F3F3</color>
+    <color name="surface_container">#EEEEEE</color>
+    <color name="surface_container_high">#E8E8E8</color>
+    <color name="surface_container_highest">#E2E2E2</color>
+    <color name="surface_tint">#C0030E</color>
+
+    <!-- ── Outline ────────────────────────────────────────────────────────── -->
+    <color name="outline">#916F6A</color>
+    <color name="outline_variant">#E6BDB7</color>
+
+    <!-- ── Inverse ────────────────────────────────────────────────────────── -->
+    <color name="inverse_surface">#2F3131</color>
+    <color name="inverse_on_surface">#F1F1F1</color>
+
+    <!-- ── Fixed / Dim variants ──────────────────────────────────────────── -->
+    <color name="primary_fixed">#FFDAD5</color>
+    <color name="primary_fixed_dim">#FFB4AA</color>
+    <color name="on_primary_fixed">#410001</color>
+    <color name="on_primary_fixed_variant">#930007</color>
+
+    <!-- ── Convenience aliases ───────────────────────────────────────────── -->
+    <color name="red_primary">#A8000A</color>
+    <color name="gold_accent">#FFCE00</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="shadow">#1A000000</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+</resources>

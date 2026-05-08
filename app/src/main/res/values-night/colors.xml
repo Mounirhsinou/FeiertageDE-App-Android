@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode overrides for direct color resources -->
+    <color name="primary">#FFB4AA</color>
+    <color name="on_primary">#690003</color>
+    <color name="primary_container">#930007</color>
+    <color name="on_primary_container">#FFDAD5</color>
+
+    <color name="secondary">#C8C6C5</color>
+    <color name="on_secondary">#313030</color>
+    <color name="secondary_container">#474646</color>
+    <color name="on_secondary_container">#E5E2E1</color>
+
+    <color name="tertiary">#EFC100</color>
+    <color name="on_tertiary">#3B2F00</color>
+    <color name="tertiary_container">#574500</color>
+    <color name="on_tertiary_container">#FFE086</color>
+
+    <color name="error">#FFB4AB</color>
+    <color name="on_error">#690005</color>
+    <color name="error_container">#93000A</color>
+    <color name="on_error_container">#FFDAD6</color>
+
+    <color name="background">#1A1C1C</color>
+    <color name="on_background">#E2E2E2</color>
+    <color name="surface">#1A1C1C</color>
+    <color name="on_surface">#E2E2E2</color>
+    <color name="surface_variant">#524341</color>
+    <color name="on_surface_variant">#D8C2BD</color>
+    <color name="surface_container_lowest">#0F0F0F</color>
+    <color name="surface_container_low">#1A1A1A</color>
+    <color name="surface_container">#212121</color>
+    <color name="surface_container_high">#2B2B2B</color>
+    <color name="surface_container_highest">#333333</color>
+
+    <color name="outline">#A08C88</color>
+    <color name="outline_variant">#524341</color>
+
+    <!-- ── Fixed / Dim variants ──────────────────────────────────────────── -->
+    <color name="primary_fixed">#930007</color>
+    <color name="primary_fixed_dim">#FFB4AA</color>
+    <color name="on_primary_fixed">#FFDAD5</color>
+    <color name="on_primary_fixed_variant">#FFB4AA</color>
+
+    <color name="divider">#333333</color>
+    <color name="card_background">#212121</color>
+</resources>

@@ -1,0 +1,215 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-01",
+  "holidays": [
+    {
+      "id": "2027_neujahr",
+      "name": "Neujahrstag",
+      "nameEn": "New Year's Day",
+      "date": "2027-01-01",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Der erste Tag des neuen Jahres. Neujahr wird in Deutschland und vielen anderen Ländern gefeiert und ist ein gesetzlicher Feiertag.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_heilige_drei_koenige",
+      "name": "Heilige Drei Könige",
+      "nameEn": "Epiphany",
+      "date": "2027-01-06",
+      "isNational": false,
+      "states": ["BW","BY","ST"],
+      "description": "Das Dreikönigsfest erinnert an die Ankunft der Weisen aus dem Morgenland beim Jesuskind.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_internationaler_frauentag",
+      "name": "Internationaler Frauentag",
+      "nameEn": "International Women's Day",
+      "date": "2027-03-08",
+      "isNational": false,
+      "states": ["BE","MV","TH"],
+      "description": "Der Internationale Frauentag erinnert an die Gleichberechtigung der Geschlechter.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_karfreitag",
+      "name": "Karfreitag",
+      "nameEn": "Good Friday",
+      "date": "2027-03-26",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Karfreitag ist der Freitag vor Ostern und gedenkt der Kreuzigung und dem Tod Jesu Christi.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_ostersonntag",
+      "name": "Ostersonntag",
+      "nameEn": "Easter Sunday",
+      "date": "2027-03-28",
+      "isNational": false,
+      "states": ["BB","HE"],
+      "description": "Ostersonntag feiert die Auferstehung Jesu Christi.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_ostermontag",
+      "name": "Ostermontag",
+      "nameEn": "Easter Monday",
+      "date": "2027-03-29",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Ostermontag ist der Tag nach dem Ostersonntag und ist in allen Bundesländern ein gesetzlicher Feiertag.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_tag_der_arbeit",
+      "name": "Tag der Arbeit",
+      "nameEn": "Labour Day",
+      "date": "2027-05-01",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Der Tag der Arbeit, auch Maifeiertag genannt, ist dem Andenken der Arbeiterbewegung gewidmet.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_christi_himmelfahrt",
+      "name": "Christi Himmelfahrt",
+      "nameEn": "Ascension Day",
+      "date": "2027-05-06",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Christi Himmelfahrt fällt auf den 40. Tag nach Ostern. In Deutschland ist es zugleich der Vatertag.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_pfingstsonntag",
+      "name": "Pfingstsonntag",
+      "nameEn": "Whit Sunday",
+      "date": "2027-05-16",
+      "isNational": false,
+      "states": ["BB","HE"],
+      "description": "Pfingstsonntag feiert die Ausgießung des Heiligen Geistes auf die Apostel.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_pfingstmontag",
+      "name": "Pfingstmontag",
+      "nameEn": "Whit Monday",
+      "date": "2027-05-17",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Pfingstmontag schließt das Pfingstfest ab. Er ist in allen Bundesländern ein gesetzlicher Feiertag.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_fronleichnam",
+      "name": "Fronleichnam",
+      "nameEn": "Corpus Christi",
+      "date": "2027-05-27",
+      "isNational": false,
+      "states": ["BW","BY","HE","NW","RP","SL"],
+      "description": "Fronleichnam ist ein katholisches Hochfest zu Ehren des Leibes und Blutes Jesu Christi.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_maria_himmelfahrt",
+      "name": "Mariä Himmelfahrt",
+      "nameEn": "Assumption of Mary",
+      "date": "2027-08-15",
+      "isNational": false,
+      "states": ["BY","SL"],
+      "description": "Mariä Himmelfahrt ist ein katholisches Hochfest, das die leibliche Aufnahme Marias in den Himmel begeht.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_weltkindertag",
+      "name": "Weltkindertag",
+      "nameEn": "World Children's Day",
+      "date": "2027-09-20",
+      "isNational": false,
+      "states": ["TH"],
+      "description": "Der Weltkindertag am 20. September ist in Thüringen ein gesetzlicher Feiertag.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_tag_der_deutschen_einheit",
+      "name": "Tag der Deutschen Einheit",
+      "nameEn": "German Unity Day",
+      "date": "2027-10-03",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Der Tag der Deutschen Einheit am 3. Oktober erinnert an die Wiedervereinigung Deutschlands im Jahr 1990.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_reformationstag",
+      "name": "Reformationstag",
+      "nameEn": "Reformation Day",
+      "date": "2027-10-31",
+      "isNational": false,
+      "states": ["BB","HB","HH","MV","NI","SN","ST","SH","TH"],
+      "description": "Der Reformationstag am 31. Oktober erinnert an den Beginn der Reformation durch Martin Luther im Jahr 1517.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_allerheiligen",
+      "name": "Allerheiligen",
+      "nameEn": "All Saints' Day",
+      "date": "2027-11-01",
+      "isNational": false,
+      "states": ["BW","BY","NW","RP","SL"],
+      "description": "Allerheiligen ist ein christliches Fest zum Gedenken aller Heiligen.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_buss_und_bettag",
+      "name": "Buß- und Bettag",
+      "nameEn": "Day of Repentance and Prayer",
+      "date": "2027-11-17",
+      "isNational": false,
+      "states": ["SN"],
+      "description": "Der Buß- und Bettag ist in Sachsen ein gesetzlicher Feiertag.",
+      "type": "state",
+      "year": 2027
+    },
+    {
+      "id": "2027_1_weihnachtstag",
+      "name": "1. Weihnachtstag",
+      "nameEn": "Christmas Day",
+      "date": "2027-12-25",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Der 1. Weihnachtstag feiert die Geburt Jesu Christi.",
+      "type": "national",
+      "year": 2027
+    },
+    {
+      "id": "2027_2_weihnachtstag",
+      "name": "2. Weihnachtstag",
+      "nameEn": "Boxing Day",
+      "date": "2027-12-26",
+      "isNational": true,
+      "states": ["BW","BY","BE","BB","HB","HH","HE","MV","NI","NW","RP","SL","SN","ST","SH","TH"],
+      "description": "Der 2. Weihnachtstag (Stefanstag) schließt das Weihnachtsfest ab.",
+      "type": "national",
+      "year": 2027
+    }
+  ]
+}

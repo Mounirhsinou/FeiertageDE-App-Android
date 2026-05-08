@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ════════════════════════════════════════════════════════════════════
+         Dark Mode theme – overrides light tokens
+    ════════════════════════════════════════════════════════════════════ -->
+    <style name="Theme.FeiertageDE" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#FFB4AA</item>
+        <item name="colorOnPrimary">#690003</item>
+        <item name="colorPrimaryContainer">#930007</item>
+        <item name="colorOnPrimaryContainer">#FFDAD5</item>
+        <item name="colorSecondary">#C8C6C5</item>
+        <item name="colorOnSecondary">#313030</item>
+        <item name="colorSecondaryContainer">#474646</item>
+        <item name="colorOnSecondaryContainer">#E5E2E1</item>
+        <item name="colorTertiary">#EFC100</item>
+        <item name="colorOnTertiary">#3B2F00</item>
+        <item name="colorTertiaryContainer">#574500</item>
+        <item name="colorOnTertiaryContainer">#FFE086</item>
+        <item name="colorError">#FFB4AB</item>
+        <item name="colorOnError">#690005</item>
+        <item name="android:colorBackground">#1A1C1C</item>
+        <item name="colorSurface">#1A1C1C</item>
+        <item name="colorOnSurface">#E2E2E2</item>
+        <item name="colorSurfaceVariant">#524341</item>
+        <item name="colorOnSurfaceVariant">#D8C2BD</item>
+        <item name="colorOutline">#A08C88</item>
+        <item name="colorOutlineVariant">#524341</item>
+        <item name="android:statusBarColor">#1A1C1C</item>
+        <item name="android:navigationBarColor">#1A1C1C</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="shapeAppearanceSmallComponent">@style/Shape.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.Large</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
